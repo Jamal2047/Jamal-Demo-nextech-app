@@ -1,0 +1,11 @@
+id,name,description,image_url,location
+sun,The Sun,A massive ball of hot gas that provides light and energy to all planets in our solar system.,app_photos/sun.webp,Solar System
+mercury,Mercury,The smallest planet and closest to the Sun with extreme temperature swings.,app_photos/mercury.jpg,Solar System
+venus,Venus,The hottest planet with a thick atmosphere and bright appearance in the sky.,app_photos/venus.jpg,Solar System
+earth,Earth,Our home planet with liquid water and life as we know it.,app_photos/earth.jpg,Solar System
+mars,Mars,The red planet known for dust storms and potential signs of ancient water.,app_photos/mars.jpg,Solar System
+sirius,Sirius,The brightest star in our night sky located in the constellation Canis Major.,app_photos/sirius.jpg,Canis Major
+betelgeuse,Betelgeuse,A massive red supergiant star and one of the largest known stars in space.,app_photos/betelgeuse.jpg,Orion
+black-hole-in-m87,Black Hole in M87,A supermassive black hole at the center of galaxy M87 first imaged by scientists.,app_photos/black-hole-in-m87.jpg,Messier 87
+sagittarius-a,Sagittarius A,The supermassive black hole at the center of our own Milky Way galaxy.,app_photos/sagittarius-a.jpg,Milky Way center
+ton-618,TON 618,The largest known black hole in the universe with extreme gravitational power.,app_photos/ton-618.jpg,Distant quasar

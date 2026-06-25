@@ -1,13 +1,13 @@
-# Specification: [Your App Idea Name]
+# Specification: [Space Info and Fun Facts]
 
-App description: [Write a one or two sentences describing what your app does and who it’s for.]
+App description: My app is for all people interested in space to learn more about certain topics, such as facts about different planets, stars, and other such things.
 
 ## Style and Theme
 
-[Describe the look and feel of your app.] 
+The app should feature a fun and interactive space-themed design, while maintaining a clear and visually appealing structure.
 
 Overall mood:
-Examples: fun and playful, calm and professional, bold and energetic, etc.
+Fun, interactive, and engaging while maintaining an overall calm tone.
 
 Use the *style-guide.html* for details on styling -- fonts, colors, and layout.
 
@@ -15,7 +15,9 @@ Use the *style-guide.html* for details on styling -- fonts, colors, and layout.
 
 ### Story 1 (most important)
 
-[Write 1-2 sentences. Who is using the app, what do they want to do, and what do they see when it works? Write it like you are describing it to a friend.]
+James wants to learn some fun facts about the sun, as well as general information about stars and what the biggest known star is. James wants to be able to interact with the website by clicking on the stars he is researching to learn more about them.
+
+Michael wants to learn more about black holes, specifically the largest known black hole in the universe. He wants to be able to click around and interact with different parts of the black hole to learn more about how it functions.
 
 ---
 
@@ -31,7 +33,7 @@ Write clear statements about what the app must do.
 	 - Item detail (`#/items/:id`)
 	 - About (`#/about`)
 2. The navigation bar must let people move to Home, Items, and About.
-3. The app must load data from `items-template.csv` (a simple text table file).
+3. The app must load data from `items.csv` (a simple text table file).
 4. The collection page must show one card per row in the data file.
 5. Each card must include name, short description, and image (if available).
 6. Each card must include a way to open that item's detail page.

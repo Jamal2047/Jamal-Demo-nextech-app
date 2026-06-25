@@ -14,7 +14,7 @@ export default {
     };
   },
   template: /* html */ `
-    <section class="container py-4">
+    <section class="container py-4 text-white fw-bold item-detail-page-component text-center">
       <router-link to="/items" class="btn btn-link ps-0 mb-3">← Back to collection</router-link>
 
       <div v-if="itemsStore.isLoading" class="alert alert-secondary" role="status">
@@ -41,8 +41,8 @@ export default {
           No image available
         </div>
 
-        <div class="card-body p-4">
-          <div class="d-flex align-items-center gap-2 mb-2">
+        <div class="card-body p-4 bg-black text-white text-center">
+          <div class="d-flex align-items-center gap-2 mb-2 justify-content-center">
             <h1 class="h3 mb-0">{{ selectedItem.name }}</h1>
             <span class="badge text-bg-primary">{{ selectedItem.category || 'General' }}</span>
           </div>

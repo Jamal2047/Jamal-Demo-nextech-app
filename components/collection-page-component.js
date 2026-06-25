@@ -8,13 +8,17 @@ export default {
     };
   },
   template: /* html */ `
-    <section class="container py-4">
-      <div class="d-flex justify-content-between align-items-center mb-3">
-        <h1 class="h3 mb-0">Collection</h1>
-        <span class="badge text-bg-light border">{{ itemsStore.items.length }} shown</span>
+    <section class="container py-4 text-white fw-bold collection-page-component text-center">
+      <div class="p-3 border border-2 border-white bg-black mb-3 d-inline-block">
+        <div class="d-flex justify-content-center align-items-center gap-2">
+          <h1 class="h3 mb-0">Space Topics</h1>
+          <span class="badge text-bg-dark border">{{ itemsStore.items.length }} topics</span>
+        </div>
       </div>
 
-      <p class="text-muted">Browse a simple dataset loaded from a CSV file.</p>
+      <div class="p-3 border border-2 border-white bg-black mb-3 d-inline-block">
+        <p class="text-white mb-0">Click on any topic to learn more about stars, planets, and black holes!</p>
+      </div>
 
       <div v-if="itemsStore.isLoading" class="alert alert-secondary" role="status">
         Loading items...
@@ -42,10 +46,10 @@ export default {
               No image available
             </div>
 
-            <div class="card-body d-flex flex-column">
-              <div class="d-flex justify-content-between align-items-start mb-2">
-                <h2 class="h5 card-title mb-0">{{ item.name }}</h2>
-                <span class="badge text-bg-primary ms-2">{{ item.category || 'General' }}</span>
+            <div class="card-body d-flex flex-column text-center">
+              <div class="d-flex flex-column align-items-center mb-2">
+                <h2 class="h5 card-title mb-1">{{ item.name }}</h2>
+                <span class="badge text-bg-primary">{{ item.category || 'General' }}</span>
               </div>
 
               <p class="card-text text-muted flex-grow-1 collection-description">

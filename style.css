@@ -13,3 +13,99 @@
 .item-detail-image {
   max-height: 320px;
 }
+
+/* Space theme background styling */
+body.bg-primary {
+  background-color: #57006f;
+}
+
+/* Secondary color for navbar */
+nav {
+  background-color: #000000 !important;
+}
+
+main {
+  background-color: #57006f;
+}
+
+section {
+  background-color: #57006f;
+}
+
+/* Collection page text color - force all text to white */
+.collection-page-component,
+.item-detail-page-component {
+  color: #000000 !important;
+}
+
+.collection-page-component h1,
+.collection-page-component h2,
+.collection-page-component p,
+.collection-page-component span,
+.collection-page-component a,
+.item-detail-page-component h1,
+.item-detail-page-component h2,
+.item-detail-page-component p,
+.item-detail-page-component span,
+.item-detail-page-component a {
+  color: #ffffff !important;
+}
+
+.collection-page-component .text-muted,
+.item-detail-page-component .text-muted {
+  color: #ffffff !important;
+}
+
+.collection-page-component .card-text,
+.item-detail-page-component .card-text {
+  color: #ffffff !important;
+}
+
+/* Card styling for collection page */
+.collection-page-component .card {
+  background-color: #000000 !important;
+  border-color: #ffffff !important;
+}
+
+.collection-page-component .card-body {
+  background-color: #000000 !important;
+}
+
+/* Home page text color - force all text to black */
+.landing-page-component,
+.about-page-component {
+  color: #000000 !important;
+}
+
+.landing-page-component h1,
+.landing-page-component h2,
+.landing-page-component p,
+.about-page-component h1,
+.about-page-component p {
+  color: #000000 !important;
+}
+
+.explore-topic-button,
+.hover-grow {
+  transition: transform 0.12s ease-in-out;
+}
+
+.explore-topic-button {
+  border-radius: 20px;
+}
+
+.hover-grow {
+  border-radius: 10px;
+}
+
+.explore-topic-button:hover,
+.explore-topic-button:focus,
+.hover-grow:hover,
+.hover-grow:focus {
+  transform: scale(1.1);
+}
+
+.explore-topic-button:active,
+.hover-grow:active {
+  transform: scale(0.85);
+}
