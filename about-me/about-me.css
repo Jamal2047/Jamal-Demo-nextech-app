@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "CreatorGenius";
+    src: url("../fonts/Creator Genius.ttf") format("truetype");
+    font-display: swap;
+}
+
+#home.page-section h1 {
+    font-family: "CreatorGenius", sans-serif;
+}
+
+#home.page-section {
+    text-align: center;
+}
+
+#about.page-section h2 {
+    font-family: "CreatorGenius", sans-serif;
+}
+
+#about.page-section {
+    text-align: center;
+}
+
+#projects.page-section h2 {
+    font-family: "CreatorGenius", sans-serif;
+}
+
+#projects.page-section {
+    text-align: center;
+}
+
+#contact.page-section h2 {
+    font-family: "CreatorGenius", sans-serif;
+}
+
+#contact.page-section {
+    text-align: center;
+}
+

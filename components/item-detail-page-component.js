@@ -29,7 +29,7 @@ export default {
         Item not found.
       </div>
 
-      <article v-else class="card shadow-sm border-0 overflow-hidden">
+      <article v-else class="card shadow-sm border border-2 border-white overflow-hidden">
         <img
           v-if="selectedItem.imageUrl"
           :src="selectedItem.imageUrl"

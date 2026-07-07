@@ -34,7 +34,7 @@ export default {
 
       <div v-else class="row g-3">
         <div class="col-12 col-md-6 col-lg-4" v-for="item in itemsStore.items" :key="item.id">
-          <article class="card h-100 shadow-sm border-0">
+          <article class="card h-100 shadow-sm border border-2 border-white">
             <img
               v-if="item.imageUrl"
               :src="item.imageUrl"
