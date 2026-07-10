@@ -12,11 +12,19 @@
 
 
 #home.page-section h1 {
+    color: cyan;
+    background-color: white;
     font-family: "CreatorGenius", sans-serif;
+    font-size: 15vw;
+    border: 2px solid black;
+    border-radius: 50px;
 }
+
 
 #home.page-section {
     text-align: center;
+    font-size: 5vw;
+    vertical-align: text-top;
 }
 
 #about.page-section h2 {
@@ -141,5 +149,17 @@ body {
 }
 
 label.toggle-btn span {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    white-space: nowrap;
+    background-color: black;
     font-family: "Montenegrin Gothic One", serif;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+
+a {
+    text-decoration: none;
 }
