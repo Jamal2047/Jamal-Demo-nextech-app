@@ -10,16 +10,43 @@
   font-style: normal;
 }
 
+.gradient-text-box{
+    background: linear-gradient(#002424, #68E5E5);
+    border-radius: 50px;
+    display: block; margin: 0 auto;
+}
+
+
 
 #home.page-section h1 {
-    color: cyan;
-    background-color: white;
     font-family: "CreatorGenius", sans-serif;
-    font-size: 15vw;
+    font-size: 12vw;
+    color: transparent;
+    background: linear-gradient(#00ffe1, #0092bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     border: 2px solid black;
     border-radius: 50px;
 }
 
+#home.page-section h2 {
+    font-family: "CreatorGenius", sans-serif;
+    color: black;
+    background: linear-gradient(#ffffff, #00ffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#home.page-section p {
+    font-family: "CreatorGenius", sans-serif;
+    color: black;
+    background: linear-gradient(#00027b, #00ffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 #home.page-section {
     text-align: center;
@@ -28,27 +55,73 @@
 }
 
 #about.page-section h2 {
+    color: cyan;
+    text-align: center;
     font-family: "CreatorGenius", sans-serif;
+    font-size: 10vw;
+    background: linear-gradient(#00ffe1, #0092bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 
 #about.page-section {
-    text-align: center;
+    font-size: 2vw;
+    vertical-align: text-top;
+}
+
+#about.page-section p {
+    text-align: left;
 }
 
 #projects.page-section h2 {
+    color: cyan;
+    text-align: center;
     font-family: "CreatorGenius", sans-serif;
+    font-size: 10vw;
+    background: linear-gradient(#00ffe1, #0092bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 
 #projects.page-section {
+    font-size: 2vw;
+    vertical-align: text-top;
+}
+
+#projects.page-section h5 {
+    font-family: "CreatorGenius", sans-serif;
+    font-size: 4vw;
     text-align: center;
 }
 
+#projects.page-section p {
+    text-align: left;
+}
+
 #contact.page-section h2 {
+    color: cyan;
     font-family: "CreatorGenius", sans-serif;
+    font-size: 10vw;
+    background: linear-gradient(#00ffe1, #0092bf);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid black;
+    border-radius: 50px;
 }
 
 #contact.page-section {
     text-align: center;
+    font-size: 3.5vw;
+    white-space: nowrap;
+    font-family: "CreatorGenius", sans-serif;
+    vertical-align: text-top;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
@@ -71,6 +144,9 @@ body {
 }
 
 #sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: rgba(11, 0, 0, 0.06);
@@ -162,4 +238,81 @@ label.toggle-btn span {
 
 a {
     text-decoration: none;
+}
+
+hr {
+    border: 0;
+    height: 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0));
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.email {
+    color: rgb(255, 255, 255);
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 3rem;
+}
+
+.email-text {
+    text-align: center;
+    font-family: "CreatorGenius", sans-serif;
+    font-size: 3vw;
+    vertical-align: text-top;
+}
+
+.email-button {
+    border: 2px solid white;
+    background-color: black;
+    padding: 12px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.play-text {
+    text-align: center;
+    font-family: "CreatorGenius", sans-serif;
+    font-size: 3vw;
+    vertical-align: text-top;
+}
+
+.falling-notes {
+    border: 2px solid white;
+    background-color: black;
+    padding: 12px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+.play-button {
+    border: 2px solid white;
+    background-color: black;
+    padding: 12px;
+    font-size: 2rem;
+    border-radius: 20px;
+}
+
+button,
+.hover-grow {
+  transition: transform 0.12s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active,
+.hover-grow:active {
+    transform: scale(0.85);
+}
+
+.text-container {
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: linear-gradient(#ffffff, #00ffff);
 }

@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
+</style>
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,9 +14,10 @@
   <title>About Me</title>
   <link rel="stylesheet" href="about-me.css">
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 </head>
 <body>
-  
+
   <div class="container">
     <aside id="sidebar">
       <input type="checkbox" id="toggler">
@@ -23,28 +28,28 @@
       
       <ul class="sidebar-nav">
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="#home" class="sidebar-link">
             <i class="bx bx-home"></i>
             <span>Home</span>
           </a>
         </li>
 
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="#about" class="sidebar-link">
             <i class="bx bx-user"></i>
             <span>About</span>
           </a>
         </li>
 
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="#projects" class="sidebar-link">
             <i class="bx bx-folder"></i>
             <span>Projects</span>
           </a>
         </li>
 
         <li class="sidebar-item">
-          <a href="#" class="sidebar-link">
+          <a href="#contact" class="sidebar-link">
             <i class="bx bx-message"></i>
             <span>Contact</span>
           </a>
@@ -55,24 +60,100 @@
 
     <div class="main">
       <section id="home" class="page-section">
-        <h1 style="color: cyan; -webkit-text-stroke: 1px black;" class="gradient-text">Welcome!</h1>
-        <p>My name is Jamal Brown</p>
+        <div class="gradient-text-box">
+          <h1 style="color: cyan; -webkit-text-stroke: 1px black;" class="gradient-text-box">Welcome!</h1>
+        </div>
+        <br>
+        <p style="color: rgb(0, 0, 0); -webkit-text-stroke: 2px rgb(0, 0, 0);">My name is </p>
+        <h2 style="color: rgb(0, 0, 0); -webkit-text-stroke: 1px rgb(0, 0, 0);">Jamal Brown</h2>
       </section>
+
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
 
       <section id="about" class="page-section">
-        <h2>About Me</h2>
-        <p>Here is a short introduction to who I am and what I enjoy working on.</p>
+        <div class="gradient-text-box">
+          <h2 style="color: cyan; -webkit-text-stroke: 1px black;">About Me</h2>
+        </div>
+        <br>
+        <br>
+        <div class="text-container">
+          <p>My name is Jamal. I currently attend Muncie Central High School and I will be starting my senior year soon. I also spend half of my schools days at the Muncie Area Career Center learning about Software Development and creating many projects. From my classes at the Muncie Area Career Center, I have earned the PCEP Entry-Level Python Programmer certificate.</p>
+          <br>
+          <p>I've had an interest in technology and programming for practically my entire life. I've always been fascinated by what's behind the scenes of the many technologies that we use in our day-to-day lives. I've particularly always had an interest in video games and how people create them.</p>
+          <br>
+          <p>I started programming games when I was in middle school and since then, my passion for it has only grown.</p>
+        </div>
+
       </section>
+
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
 
       <section id="projects" class="page-section">
-        <h2>Projects</h2>
-        <p>Share your favorite projects or coursework here.</p>
+        <div class="gradient-text-box">
+          <h2 style="color: cyan; -webkit-text-stroke: 1px black;">Projects</h2>
+        </div>
+        <br>
+        <h5 style="color: rgb(0, 0, 0); -webkit-text-stroke: 0.2px rgb(255, 255, 255);">Here are some examples of my work!.</h5>
+        <br>
+        <div class="text-container">
+          <h5 style="color: rgb(0, 0, 0); -webkit-text-stroke: 0.2px rgb(255, 255, 255);">Falling Notes</h5>
+          <br>
+          <p>Falling Notes is a game that I created for one of my projects at the Muncie Area Career Center.</p>
+          <br>
+          <p>The gameplay of this game was inspired by multiple different rhythm games. While I didn't quite know how to match the gameplay to the music, I did try my best to accurately re-create the same type of gameplay.</p>
+          <br>
+          <p>This game took a few days to fully complete. While I'm still working on improving the visuals of my games, I think that the gameplay and game mechanics of Falling Notes is my best I've made so far.</p>
+        </div>
+
+        <br>
+
+        <button class="play-button">
+          <a href="https://platform.techsmart.codes/code/21385180/" class="falling-notes">
+            <i class="bx bx-play" ></i>
+            <span class="play-text">Play</span>
+          </a>
+        </button>
+
       </section>
 
+      <br>
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+
       <section id="contact" class="page-section">
-        <h2>Contact</h2>
-        <p>Let visitors know how to reach you or connect online.</p>
+        <div class="gradient-text-box">
+          <h2 style="color: cyan; -webkit-text-stroke: 1px black;">Contact</h2>
+        </div>
+        <br>
+        <br>
+        <p style="color: rgb(0, 0, 0); -webkit-text-stroke: 0.3px rgb(255, 255, 255);">Need to contact me? Here's how you can reach out!</p>
+        <br>
+        
+        <button class="email-button">
+          <a href="mailto:jamalb2047@gmail.com can I help you?" class="email">
+            <i class="bx bx-envelope" ></i>
+            <span class="email-text">Send me an Email!</span>
+          </a>
+        </button>
+
       </section>
+
+      <br>
+      <br>
+      <br>
 
     </div>
 
