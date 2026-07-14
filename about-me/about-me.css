@@ -274,24 +274,25 @@ html {
 
 .play-text {
     text-align: center;
+    color: white;
     font-family: "CreatorGenius", sans-serif;
     font-size: 3vw;
     vertical-align: text-top;
 }
 
 .falling-notes {
-    border: 2px solid white;
-    background-color: black;
+    color: white;
     padding: 12px;
     font-size: 2rem;
     border-radius: 20px;
 }
 
 .play-button {
-    border: 2px solid white;
     background-color: black;
+    color: white;
     padding: 12px;
     font-size: 2rem;
+    border: 2px solid white;
     border-radius: 20px;
 }
 
@@ -309,10 +310,55 @@ button:active,
     transform: scale(0.85);
 }
 
+.about-content,
+.project-content {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
 .text-container {
+    flex: 1 1 400px;
     max-width: 600px;
     padding: 20px;
     border: 2px solid black;
     border-radius: 20px;
     background: linear-gradient(#ffffff, #00ffff);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    display: block;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.picture-border {
+    flex-shrink: 0;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 200px;
+    overflow: hidden;
+}
+
+.game {
+    display: block;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.game-border {
+    display: inline-block;
+    flex-shrink: 0;
+    border: 2px solid white;
+    border-radius: 50px;
+    overflow: hidden;
 }
